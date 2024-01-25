@@ -1,0 +1,3 @@
+python-docx
+python-docx-replace
+python-dotenv
