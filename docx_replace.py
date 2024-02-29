@@ -34,7 +34,9 @@ for r in df.iterrows():
 
     contrato_number = row['contrato']
 
-    if contrato_number != '1':
+    make_contract = row['make_contract']
+
+    if make_contract != '1':
         continue
 
     print(f"Replacing {contrato_number}")
